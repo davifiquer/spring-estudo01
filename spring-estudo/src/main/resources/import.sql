@@ -1,0 +1,3 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Davi Fiquer', '049.877.251.93', 1200, TIMESTAMP WITH TIME ZONE '1993-04-15T06:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Thaísa Vilas Bôas', '055.262.444.91', 1800, TIMESTAMP WITH TIME ZONE '1987-05-01T06:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Oldarico Fiquer', '058.541.474.93', 2500, TIMESTAMP WITH TIME ZONE '1911-10-01T06:00:00Z', 10);
