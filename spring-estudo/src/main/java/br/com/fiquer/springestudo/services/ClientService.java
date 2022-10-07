@@ -2,6 +2,8 @@ package br.com.fiquer.springestudo.services;
 
 import java.util.Optional;
 
+import javax.persistence.EntityNotFoundException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -15,7 +17,7 @@ import br.com.fiquer.springestudo.repositories.ClientRepository;
 
 @Service
 public class ClientService {
-	
+
 	@Autowired
 	private ClientRepository repository;
 
@@ -42,6 +44,23 @@ public class ClientService {
 		entity.setIncome(dto.getIncome());
 		entity = repository.save(entity);
 		return new ClientDTO(entity);
+	}
+
+	@Transactional
+	public ClientDTO update(ClientDTO dto, Long id) {
+		try {
+			Client entity = repository.getReferenceById(id);
+			entity.setName(dto.getName());
+			entity.setBirthDate(dto.getBirthDate());
+			entity.setchildren(dto.getChildren());
+			entity.setCpf(dto.getCpf());
+			entity.setIncome(dto.getIncome());
+			
+			return new ClientDTO(entity);
+		} catch (EntityNotFoundException e) {
+			throw new ClientNotFoundException("Client not found: " + id);
+		}
+		
 	}
 
 }
