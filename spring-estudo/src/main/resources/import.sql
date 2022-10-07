@@ -1,3 +1,10 @@
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Davi Fiquer', '049.877.251.93', 1200, TIMESTAMP WITH TIME ZONE '1993-04-15T06:00:00Z', 1);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Davi Fiquer', '019.487.251.13', 1200, TIMESTAMP WITH TIME ZONE '1993-04-15T06:00:00Z', 1);
 INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Thaísa Vilas Bôas', '055.262.444.91', 1800, TIMESTAMP WITH TIME ZONE '1987-05-01T06:00:00Z', 1);
-INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Oldarico Fiquer', '058.541.474.93', 2500, TIMESTAMP WITH TIME ZONE '1911-10-01T06:00:00Z', 10);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Oldarico Fiquer', '058.541.474.93', 3500, TIMESTAMP WITH TIME ZONE '1911-10-01T06:00:00Z', 10);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Heinrich Ficker', '058.541.474.93', 1200, TIMESTAMP WITH TIME ZONE '1846-05-20T06:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Maria Ficker', '058.541.474.93', 2000, TIMESTAMP WITH TIME ZONE '1850-10-25T06:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jacob Stoll', '058.541.474.93', 4000, TIMESTAMP WITH TIME ZONE '1826-07-13T06:00:00Z', 5);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Anna Müller', '058.541.474.93', 12000, TIMESTAMP WITH TIME ZONE '1814-02-10T06:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Henrique Ficker Júnior', '058.541.474.93', 5000, TIMESTAMP WITH TIME ZONE '1870-08-01T06:00:00Z', 10);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ignácio Jacob Stoll', '058.541.474.93', 6000, TIMESTAMP WITH TIME ZONE '1870-06-17T06:00:00Z', 5);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Anna Budzinsky', '058.541.474.93', 8000, TIMESTAMP WITH TIME ZONE '1900-01-22T06:00:00Z', 6);
